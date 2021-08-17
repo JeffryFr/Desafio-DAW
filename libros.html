@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ingresar Libros</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Ingresar Libro</h1>
+
+            <form action="javascript:void(0)" name="frmforms" id="form">
+
+                <label for="libroid">Libro ID: </label>
+                <input type="text" name="libroid" id="libroid" placeholder="Nombre" autocomplete="off" required><br>
+
+                <label for="titulo">Titulo: </label>
+                <input type="text" name="titulo" id="titulo" placeholder="Titulo" autocomplete="off" required><br>
+
+                <label for="autorname">Nombre autor: </label>
+                <input type="text" name="autorname" id="autorname" placeholder="Nombre del autor" autocomplete="off" required><br>
+
+                <label for="autorlast">Apellido autor: </label>
+                <input type="text" name="autorlast" id="autorlast" placeholder="Nombre del autor" autocomplete="off" required><br>
+
+                <label for="categoria">Categoria: </label>
+                <input type="text" name="categoria" id="categoria" placeholder="Nombre del autor" autocomplete="off" required><br>
+
+                <label for="precio">Precio: </label>
+                <input type="text" name="precio" id="precio" placeholder="Nombre del autor" autocomplete="off" required><br>
+
+                <label for="image">Seleccione una imagen</label>
+                <input type="file" name="image" id="image" accept=".jpg, .png, .jpeg" required><br>
+
+                <input type="submit" value="Ingresar" name="ingresar" id="ingresar">
+            </form>
+        </div>
+        <div id="infoLibros"></div>
+    </body>
+    <script src="js/libros.js"></script>
+</html>
