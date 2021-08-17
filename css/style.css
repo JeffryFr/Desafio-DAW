@@ -14,6 +14,7 @@ body h1{
     color: rgb(99, 126, 134);
     margin-bottom: 10px;
     text-align: center;
+    align-items: center;
 }
 
 .container{
@@ -22,6 +23,7 @@ body h1{
     border-radius: 5px;
     margin: 30vw;
     margin-top: 5%;
+    margin-bottom: 2%;
     padding: 5%;
 
 }
@@ -36,4 +38,24 @@ form #ingresar{
     background-image: linear-gradient(185deg, #affc9c 0, #9cf6a0 10%, #89eea4 20%, #76e5a6 30%, #62d9a7 40%, #50cca5 50%, #3fbfa2 60%, #30b3a0 70%, #23a89e 80%, #189f9c 90%, #10989b 100%);;
     color: white;
     padding: 5px;
+}
+
+#infoLibros{
+    background-color: white;
+    align-items: center;
+    padding: 5%;
+}
+
+#infoLibros th{
+    font-size: 20px;
+}
+
+#infoLibros td, #infoLibros th{
+    border: black 2px solid;
+    padding: 5px;
+    margin: 0;
+}
+#infoLibros td{
+    background-color: lightblue;
+    text-align: center;
 }
